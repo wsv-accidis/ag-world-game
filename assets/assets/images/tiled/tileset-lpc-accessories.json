@@ -1,0 +1,14 @@
+{ "columns":5,
+ "image":"tileset-lpc-accessories.png",
+ "imageheight":128,
+ "imagewidth":160,
+ "margin":0,
+ "name":"LPC Accessories",
+ "spacing":0,
+ "tilecount":20,
+ "tiledversion":"1.11.0",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.10"
+}
