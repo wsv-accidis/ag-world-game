@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.0" name="LPC Water-Grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+ <editorsettings>
+  <export target="../assets/assets/images/tiled/tileset-lpc-watergrass.json" format="json"/>
+ </editorsettings>
  <image source="tileset-lpc-watergrass.png" width="96" height="192"/>
  <tile id="0">
   <objectgroup draworder="index" id="2">
@@ -71,4 +74,7 @@
    <object id="1" x="0" y="0" width="16" height="16"/>
   </objectgroup>
  </tile>
+ <tile id="15" probability="0.03"/>
+ <tile id="16" probability="0.03"/>
+ <tile id="17" probability="0.03"/>
 </tileset>

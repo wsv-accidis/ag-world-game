@@ -120,6 +120,7 @@
             "scaleInEditor": 1
         }
     },
+    "frame.defaultDuration": 5000,
     "last.exportedFilePath": "D:/Dev/Git/ag-world-game/assets/assets/images/tiled",
     "last.externalTilesetPath": "D:/Dev/Git/sjoslaget/GotlandFrontendWorld/artwork",
     "last.imagePath": "D:/Dev/Git/sjoslaget/GotlandFrontendWorld/tiled",
