@@ -2,4 +2,5 @@
 set PATH=D:\Dev\Flutter\bin;%PATH%
 rmdir /s /q build
 xcopy assets\* build\web\* /e /q
-flutter build web --wasm
+rem flutter build web --wasm
+flutter build web

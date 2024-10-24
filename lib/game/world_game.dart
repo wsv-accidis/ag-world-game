@@ -13,7 +13,7 @@ class WorldGame extends StatefulWidget {
 }
 
 class _WorldGameState extends State<WorldGame> {
-  static final _playerSpawnPoint = Vector2(300, 300);
+  static final _playerSpawnPoint = Vector2(2000, 2000);
 
   @override
   Widget build(BuildContext context) {
