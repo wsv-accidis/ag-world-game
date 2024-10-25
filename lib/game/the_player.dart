@@ -20,14 +20,14 @@ class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, T
   @override
   void onBlockedMovement(PositionComponent other, CollisionData collisionData) {
     // moveToPositionWithPathFinding tends to get stuck on things, stop moving to reset the walking animation
-    stopMove();
+    stopMove();    
     super.onBlockedMovement(other, collisionData);
   }
 
   @override
   Future<void> onLoad() {
     add(_playerHitbox);
-    setupPathFinding(linePathEnabled: false, showBarriersCalculated: false);
+    setupPathFinding(linePathEnabled: false, showBarriersCalculated: false, withDiagonal: false);
     return super.onLoad();
   }
 

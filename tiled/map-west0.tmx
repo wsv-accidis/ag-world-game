@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="75" height="66" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#074337" nextlayerid="10" nextobjectid="10">
+ <editorsettings>
+  <export target="../assets/assets/images/tiled/map-west0.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="tileset-lpc-grass.tsx"/>
+ <tileset firstgid="19" source="tileset-lpc-watergrass.tsx"/>
+ <tileset firstgid="37" source="tileset-area-marker.tsx"/>
+ <tileset firstgid="38" source="tileset-lpc-trees.tsx"/>
+ <tileset firstgid="1286" source="tileset-lpc-streets.tsx"/>
+ <tileset firstgid="1334" source="tileset-lpc-barn.tsx"/>
+ <tileset firstgid="2870" source="tileset-lpc-shadows.tsx"/>
+ <tileset firstgid="2891" source="tileset-lpc-mountains.tsx"/>
+ <tileset firstgid="3251" source="tileset-lpc-accessories.tsx"/>
+ <layer id="1" name="Grass" width="75" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzVWstuGzEM1D0XOyhQ9BG0Rf7/H2sfhDDMzHAobWxHgJBkVytSwzeVMT6OJzBvPe5F+0rvPHwMrs9/XObPy/xVrD2KPzVvOSbNk8nH9fnvy3y5zO/jDa/P5s/B53m8l/sz+R7N+e0JfJd1Ce3LeL9i9XqZ3y7zX8H/7ujoOzrD9VnWg7nulH5mrJkeuXp1HX8u8+94w+neWMUzoLO6zzLWEbvTeNM5pGdfYUR+me2cBsdjrjuB7xCm5/ERw1v7zdWhzpT1I+IU7S7bJJvs/VfQK8V71qEOJtUa17c/ylDxjvmi+NzBq8Iy7vGoA+HA/I3ShYgZywtYDM2/P+JwdAjhgfx1ZWdOfjb3frTBdILlVXlNjncRNwdzpau3OG/3u8nfebzHgOFY+TQWG9E+zP4+y291sZrnymeNtUinlnF8mOOf2DxyuHuvnD1Pxy8xbJB8HFs9clR7o9qVyTn7a4SJOluO+xlX5tuUbd5iuHJ3deTIdWhNfnaLUdkPy8E7dqXiJdPZGEfz96wedPm513RyRiYHhOeZvM+5BdKrDj33HJ1zqXVnQSPTqmjmXMSZOVdg3zp8umeueKx8NsIjPkM2yOihXET1dKY/GOlZFZ+Ybq/kPwqf7K9UruXg05EpWzOxUr7RyZlzT4DVqxVmK3UI41vZbCcGzG8GeN/JlZmvYLRdW0b1Cfo7+mPVM1U5myuPMTQvHduqatSj6hR21lUMMs7qflDJvWNL+bvO/RTyrUxus0fCsFF+hO1d9V8nVk4f7SmtW6mjKn1E9Nw9uzWyuyZjFZ9V9qN4Vz2mDmbKpzn5eby7cvL/qsc6ZTYAHfQzv+/KJdcM2Sa6Pt+daF+Gc4V/xirv79hxlT8gfWB1xoo+IgxVfF6JMfPOy40fu303FG+qO9BMP9sU89HIt7o6yfRjCB4zhq4/YmdZ9f0r061H2bnyGuSvJp3oU3bv2TK/7H8GWH6GenxH2VaFUdariJ3T80LPkP/JeYjKt1j9i+jmPRzbZM9jDaz+B4D5dtarV/kz42+lD85wcXBYsXPl16KuD/BNxYOKey5fyAevnFvl8uxMsRZxfNX8fQxM26HpTqbbR/mXWBuz+kP1slw6GSvmV5UtI56R3Ctdc7DO9zLM56teXBXTWR6SsXJ0pOr/INki+1A5yc4djeJvtS+JsGJ5ifLj3Tqlg4HTM+jorBOPqp4Mmiv95BU80KzOVMVkhCXDmMXb+U3uIbsxJ+fhld0gTFdswIlZTs7n6Bp6N+tBto+bG3diO/rWyXWZn0E6cXT+PmfGqtKl6o4O9WAUbkf5uKpvEWXq1AdRhlMeFVbsfJE3FZ+Z/2X6FN+jGJ5jjeszUW0b/dgZrMn8uVit6EF1DudOSvndXVvrxhaGVbfP7dZy6k6U0VVnWsUr+ghWw2UfOQBN9+5lV/ei3meayKdUfkblny7v2Q4jjwPIkuX/zMdUPKpe1Y6OZN/D7ueYHrP4g+SHfLvq5zBZVjai+IlnrXJfFzeHZyUzNjNWlexX+yeq59nRJYVf986pK5NB3n/WHVTWIRQD3L6DqkvQM3W349BGWGV7qPpNqv+c16g+UqXHjj9z9nH3Qlh19MHVM+XH3Fqg0hm1P8PHzdUQ5ggrFLNzjGG9J6evVemxc5budL9nslB3E07scnzVSs/O7SOuxN+sCx2sx/jIXyf3V3hVdbYjY6cm7u7p1AvRfmIPmdlVB/eKbxbr3F7vbl8x0urk03N9Fbtc2g6t/DujqzA5ohdbnUPxtjOdfOVWs9ObOjJOdPZyc56jdcStearc5R5yfdngobqXy+ucO8Cd3Iq9Y/e08Z1bg3QwQj1V5HvdfsQz2Uvxq/ZDdHcGwtOhi2TO8qvV3moHZ4VhvvNawWgXayUz9ywTK+fOaq7dqQ92z7k6juDlKPuIQ9nFf+uoygc=
+  </data>
+ </layer>
+ <layer id="8" name="Roads, Terrain" width="75" height="66">
+  <data encoding="base64" compression="zlib">
+   eJztnF+Sk0AQxuclKIImup7Bddd7rGYvoU9W1tP44DX0Dl5kvYpMhZa28w00MAyw9Ff1VSXZCZBf9/TOn5Cjc+4o/K7yA/M1aDO1791Zn2Y6937nXFb59c79U9t1kk4T8+KxofPcVb6p/DExJ38t30aw8poyvvx8U8elLU4PNSdXs8prVseyiluJ3+9jepuQFeWQP+d7FzeXJAtpYiPlWR0UecWvn5yiL9xFOg/nE2LRpT6s1mLP5ToSH8kqf0KsqA6fIvHheip5RTkUmw/XmlnF7mNd0o4ZluQUOYS0JlZzMSKthRXV7DmVql6hOcsacokrFSs+Z9GM95fEiITGV31jH5PVEhmRUL2KPf/y5vMjdOwlMyKhPphyzWMNjEjUB19UflnbGGFRXpHzHf5Msd3GiNaGfhTL8G11LR/KhtWzyle1Oac1xX1qtY0Z0FrolhUat1tOXSqUV5ZTlwqt9RmrS1le6WV5pVeothurS1le6WX1Si9jpVdbHyzZfNrsXFHnlVxnuGcc5dw6qx9n9fOctctYm4y1PbA2uXj9EGiXseOhY+fiPXngePJaULsMPObnk9dEjyUrPq/esp8DHpyVrGVbVlttR7VsyzJWenWxsj7YqG3MgOY/W1bbfNBY/S+rV3p15ZWxamT1Sq+uvLL/g4268sr6YKOu2o764NL2hVPsOTvGI7TOYPWqEfHg6yXGCgutu1i9wrL5oF42x9HLxgx6WR/Uy/qgXsZKL2Ol15A5zlalYcXnP6n9CsRJsx+O3peCFdoPpn1euVcr92lz8Tra+w3t7YbGK3txHHSsKfpC6H4c/73aN7v593rfBlih/XfOWNsX+uQfqkmfi7O/FEMjMK0ovtLyOxKyD6DvY/SpLwVg9bs4+2fZcOP+VbY/R6/H5L4XfDLBQfKRtQH1W8STP+dtOas/xTifatbfy27uxDTEW9ozn7s28LpwM8L+N00eR7JuiwEx1+a29u+yDWqP+saY+7e+jmQ9Rwz6xEnyGsKI7gcbez9r6Djyt2xSmuLE85rybMhnjPE7XvweoKG/4xQrZuizPYI8+wsqfB5A
+  </data>
+ </layer>
+ <layer id="4" name="Buildings" width="75" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt2T1uwkAQhuFtDBKcJSegoc7xgHQx4gQg5QcaQJyAdKHBKCcIHWkzxUiWHMuyrV3h2byP9MnSjuyx3X7OAQAAAAAAAAAA2DUaxj1vaj1wbqMpehzan/v0KTtOmrJd1uc+3ftbrP6rSc+5qWQmeer9fReLc59usuNH8yLPf5W8Sd51l/V5KMvEuVWSX4u7nuVsoZmXzLt+v09Hef5Hkl+Lu7ZydtDsS+Zdv9+nb3n+Ncmv48Kus5x9aS4l867fDwAAAOD/eejf+w0AAEDXWOt9Q4up9w0tpi4zNP5VfTH1vqHF2vuGVqfXTTVte+G0ohe2pE6vu9O07YV3Fb2wJXV63UzTthfOKnphAAAAAGjiF8kKVFU=
+  </data>
+ </layer>
+ <layer id="7" name="Objects" width="75" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt20tOAkEQxvGRNWu5id4APYHcQb2I6AH0CKJLH2BUFN2Ir4UbvYLPK/iZsDAkVJEw003P/H9JbaY7PTVfApmkMlkGlNtL7AYAAACAf55jN5CQn9gNBPCoeordRCK+VN+xmwAAYE6tLMTuIJxmwc+6mkiW67Us21Bt1mJ3Mv/aymhbteNkdVq313vOehl0lNGB6tDI6sjJoa/1ywl7rnT9THVdgiyHyuhe9TDjb/CmBFl43pXRh+qT/ysAAAAAAAAAAAplzVKnmSlbs9Ki57QhhZqvV2mOXyWT5srd0XVrrnxurJ3U7fNTY82VL7R2a8yV//SdHLy5dSqOnecYjNZnmSt79wAAIJZd1V6gey3q3byR8Pt5V9XL4ZwtVdvZs6SclhPO6lX1lsM5+6qOs2dNObUSziovd6ph7CYAVB7fbE+vCt9sj/sFR5Qxeg==
+  </data>
+ </layer>
+ <layer id="5" name="Roofs" width="75" height="66">
+  <data encoding="base64" compression="zlib">
+   eJzt2ckNAjEQRFHfOjGIhCUQ1jxY82DNgzUNihMcLISQWyM3/0l1mdK4PXPtlAAAAAAAAAAA8NOylNoWty+loxldpaf0M/Nq70sZ6Ozh26yJMrU4fUmzzKy1xelLavpbavxXI2X84S619iU9Z82VhbJUVpm71NyXtNG5W2Wn7JWDcrQ4/S8uev+aOeOkZ2d79TflbnF6AAAAAAAAAP8ryt7XW5S9r7dIe19vkXaZ3vhX34u09/UWae/rrca9b1PY+wIAAAAAkNIDqflIHw==
+  </data>
+ </layer>
+ <layer id="3" name="Area Markers" width="75" height="66" opacity="0.39">
+  <data encoding="base64" compression="zlib">
+   eJzt0DENADAMwLCSGX+Ko5Du2GVLIZAZAAAAAAAAAPjjxPBqw6vOq86rzqvOq84rAAAAAAAAAAAAXlwurAuR
+  </data>
+ </layer>
+ <objectgroup id="9" name="Object Layer 1">
+  <object id="7" x="2588" y="250"/>
+  <object id="8" name="exitMap" x="2221" y="8">
+   <polygon points="0,0 169,1 170,645 127,645 126,34 -2,36"/>
+  </object>
+  <object id="9" name="exitMap" x="2351" y="684">
+   <properties>
+    <property name="dest" value="west2"/>
+   </properties>
+   <polygon points="0,0 36,0 36,1413 -2,1412"/>
+  </object>
+ </objectgroup>
+</map>

@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bonfire: ^3.10.4
+  bonfire: ^3.10.5
+#   path: '../bonfire'
 
 dev_dependencies:
   flutter_test:
