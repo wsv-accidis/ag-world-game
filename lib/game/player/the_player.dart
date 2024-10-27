@@ -1,11 +1,12 @@
 import 'package:bonfire/bonfire.dart';
 import 'package:flutter/material.dart' show GlobalKey;
-import 'package:world/game/menu_overlay.dart';
-import 'package:world/game/the_player_assets.dart';
+import 'package:world/game/menu/menu_overlay.dart';
+import 'package:world/game/player/the_player_assets.dart';
 import 'package:world/util/global_key_extension.dart';
 
-class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, TapGesture, TileRecognizer {
-  ThePlayer(Vector2 position, this.menuKey) : super(position: position, size: Vector2.all(64), speed: 160.0, animation: ThePlayerAssets.animation);
+class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, TapGesture {
+  ThePlayer(Vector2 position, this.menuKey)
+      : super(position: position, size: Vector2.all(64), speed: 160.0, animation: ThePlayerAssets.animation);
 
   final GlobalKey<MenuOverlayState> menuKey;
 
@@ -20,7 +21,7 @@ class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, T
   @override
   void onBlockedMovement(PositionComponent other, CollisionData collisionData) {
     // moveToPositionWithPathFinding tends to get stuck on things, stop moving to reset the walking animation
-    stopMove();    
+    stopMove();
     super.onBlockedMovement(other, collisionData);
   }
 
@@ -29,15 +30,6 @@ class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, T
     add(_playerHitbox);
     setupPathFinding(linePathEnabled: false, showBarriersCalculated: false, withDiagonal: false);
     return super.onLoad();
-  }
-
-  @override
-  void onMove(double speed, Vector2 displacement, Direction direction, double angle) {
-    // Show the full menu only when player is inside home area
-    final isInHomeArea = _isInHomeArea();
-    menuKey.currentState?.mode = isInHomeArea ? MenuMode.collapsed : MenuMode.homeOnly;
-
-    super.onMove(speed, displacement, direction, angle);
   }
 
   @override
@@ -61,11 +53,5 @@ class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, T
       moveToPositionWithPathFinding(moveToPosition);
     }
     super.onTapDownScreen(event);
-  }
-
-  bool _isInHomeArea() {
-    // This property is set on the Area layer of the map
-    var tileProps = tilePropertiesBelow();
-    return tileProps != null && (tileProps["isArea"] ?? false);
   }
 }

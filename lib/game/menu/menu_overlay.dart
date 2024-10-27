@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:bonfire/bonfire.dart';
 import 'package:flutter/material.dart';
-import 'package:world/game/menu_overlay_assets.dart';
+import 'package:world/game/menu/menu_overlay_assets.dart';
 import 'package:world/widget/terrible_markdown.dart';
 
 enum MenuMode {
