@@ -5,8 +5,13 @@ import 'package:world/game/player/the_player_assets.dart';
 import 'package:world/util/global_key_extension.dart';
 
 class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, TapGesture {
-  ThePlayer(Vector2 position, this.menuKey)
-      : super(position: position, size: Vector2.all(64), speed: 160.0, animation: ThePlayerAssets.animation);
+  ThePlayer(Vector2 position, Direction direction, this.menuKey)
+      : super(
+            position: position,
+            initDirection: direction,
+            size: Vector2.all(64),
+            speed: 160.0,
+            animation: ThePlayerAssets.animation);
 
   final GlobalKey<MenuOverlayState> menuKey;
 
