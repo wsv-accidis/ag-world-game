@@ -1,17 +1,16 @@
 import 'package:bonfire/bonfire.dart';
 
 class ExitMapSensor extends GameDecoration with Sensor<Player> {
-  ExitMapSensor(Vector2 position, Vector2 size, this._destMap)
-      : super(position: position, size: size);
+  ExitMapSensor(Vector2 position, Vector2 size, this._destMap) : super(position: position, size: size);
 
   bool _contacted = false;
   final String _destMap;
- 
+
   @override
   void onContact(Player component) {
     if (_contacted) return;
     _contacted = true;
 
-    print("Contacted at ${component.position} with destMap $_destMap.");
+    MapNavigator.of(context).toNamed(_destMap);
   }
 }

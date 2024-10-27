@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="82" height="82" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+ <editorsettings>
+  <export format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" source="tileset-lpc-grass.tsx"/>
+ <tileset firstgid="19" source="tileset-lpc-watergrass.tsx"/>
+ <tileset firstgid="37" source="tileset-lpc-trees.tsx"/>
+ <tileset firstgid="1285" source="tileset-lpc-streets.tsx"/>
+ <tileset firstgid="1333" source="tileset-lpc-barn.tsx"/>
+ <tileset firstgid="2869" source="tileset-lpc-shadows.tsx"/>
+ <tileset firstgid="2890" source="tileset-lpc-mountains.tsx"/>
+ <tileset firstgid="3250" source="tileset-lpc-accessories.tsx"/>
+ <layer id="1" name="Grass" width="82" height="82">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="8" name="Roads, Terrain" width="82" height="82">
+  <data encoding="base64" compression="zlib">
+   eJztnFt20zAQhvUSMMTUXPYAhX1w2wQ8ccIi0qe+042QNbQbadeCdZCOp9ORLVkTS3H+/5w5iRNf4i+j22/ZxhhzsTGm6eNFH+0Zx8s+Nn287mOOLMeOROP2x8N/T5f9+4YE/6wTvm/YsTphn3S9jq3TkGW6D+k86LH575d+3xyOn9qB47M+3p5xPN/o5OPc7deiCwWOOduvRRockY/5HHx7DY7IRw3l5hPy8b/QzugI9aOONDiifkQ7oyWUax3l5KP3Oez/AL9nfj5KHgj1TqiXwr0c7ulwD4X7Q5IXxI/JPaNO+Jz/Lu7/SF5REwi+/dxy6X0Ouz38HrTXGkJ7rSP0H3WkkY/o9+j4FBhf63BEuUY+agn1o47gP+oIfriO0H/UkVa5ht+jw5HPdeG+jDRXhns70pwZ7g/RY/F5Qw1bluYWSceS9sH3FVrm84py68cYv8d7Imv2ht5lcIytH9EmhZVSv6KPFFZKjqFtDwvlWkco1zoCRx2Bo45QP+oolSPaa1ngqCP0H3WU2s6sleN2s5xftOZ25k2Gt0H9p3PPxxyl+kXgKOvH1pif2/j111yuc7TrGf5t41mCo6z77cDS5uZUfqJch2VZPriYyk+Mr2Vduvjolml+Htqn+QmOsr65+GwGnmP5ifpR1m8X781jnpQpZYl8HNdXM+QmzVHK8gocg7KcPvTxxTzlaOO7W++Wcaxl7sWrSv5Pm3MhhjQnLcc/7cCRz3WIeb5KaB4G3UfouSvSfTTa5SLHpwjx4znp8zFnLF/TvS6Scs4thWPKuOfYqm08kMLxFxv30Fiab239r1iOtE/5wPqXdwVy9RQ52rbmkoUf/9g8vSYsDy6OzbS2/lcMx7F2XMrTHWM6FnN5n2L9GJundIwusbX1676Pm9bc7d17zjvFv1sLx5TyH6pfKWfPNYblWsp1DtsxzrG+8rlxjOUs+XZTfjI4jvO8dWXcjkNDOsV+z5JB+/xXJ3R9ozS3EMc9OC7GEfXjNMdr5KNaPk5dt6zpWd2luUkc71m/XPKTPEf+bKTQPXnSM7K5fxzyjaV7Bvn3pblJHI2Rr1lSnrX4ySk+7pLB++WUKZ/3UcL3DKk0tymelCkfo+8m2qIlVZpXKlPK1V/r8PM+6OvY+2PkcGlGc7mGvM+p4HNuDq3OdZLSTLRyNBS0njUj7H3/4KZ93E+IjdI8auA9N7dplD7PGiI2t8ei9DmsJf4BL0YGlg==
+  </data>
+ </layer>
+ <layer id="4" name="Buildings" width="82" height="82">
+  <data encoding="base64" compression="zlib">
+   eJzt2DlOxFAQhOGX2CMxEctpSIg5GUvGcgOQWDKW4QJwAdYLwAVYY0qykZ88T2pZeGmP/k8qOaik3ZHdIQAAAAAAAAAAAAAAAAAAgEWwPh1378WmMaf33ouh98AeffR9mi2FcFNmKw9hW9lRdvNiTu+9F8+a76XMiWY7Vc6U83JO770X8ZxHWQjHWfWsv4fHPran3e4rB8phPv+uVt/WHm81211WPevv4bGPXWg3l8qVcp3Yk9X/x7fm+ynzqtnesuq5MfXfx+61mwflUXlK7MnqUXjXbj6UT+UrsSerR2F5EsKKsqqsTZr3ABbnjtCH+H+irv6/kepRiL/f6urfd6keBfbYjnhPqTuB1aMQ/0+k7gRWj3nWncDquzbknaIJ605g9V0b8k7RhHUnsPqucadoB3eKdnCnAAAAAPo3ljuFd2O5U3jHnaId3CnawZ0CAAAAAAAAf34BwMtAJA==
+  </data>
+ </layer>
+ <layer id="7" name="Objects" width="82" height="82">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20IX6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4DaRAAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="Roofs" width="82" height="82">
+  <data encoding="base64" compression="zlib">
+   eJzt2EtuwkAQhGHv5mBwkgQOQhK4ByHhHuR1D8LjHCnLsuSFZSuakVwN/yfVqiVohp5FT1UBAAAAAAAAAAAAAAAAAP5jlqpqnuLWHTyov0dloSx7enWvO1ipr6dOn2tlk+LUW1PP87anz32KU685zPPU55BbLzXPudo+n5WXgd/hXs+Z5xLq73lVdsqb8t7Th3vd4RwP+swP5VP5Ur6VnxSnnjvPpRz1mb/KSTkrF+Wa4tRz5xmN3HlGI3eegXs29d51Cxz2ruhc9q4x7vfFZV8YEuG+uJ9jlPvisneN9ef6P3f7cN67opyj+97lfl9a7nuX+32Jwv2+ROF+XwAAt8H9nSKCCO8U7qK8U7iLsl+74xzLiPJO4Y53ijJ4pyiDdwoAAAAAAAAArv4Ab/+coA==
+  </data>
+ </layer>
+ <objectgroup id="9" name="Sensors">
+  <object id="1" name="exitMap" x="4" y="2.66667" width="54" height="1480.67">
+   <properties>
+    <property name="dest" value="west0"/>
+   </properties>
+  </object>
+  <object id="2" name="exitMap" x="61" y="1.66667" width="2495.67" height="59.3333">
+   <properties>
+    <property name="dest" value="west1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
