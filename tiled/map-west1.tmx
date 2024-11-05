@@ -11,29 +11,30 @@
  <tileset firstgid="2869" source="tileset-lpc-shadows.tsx"/>
  <tileset firstgid="2890" source="tileset-lpc-mountains.tsx"/>
  <tileset firstgid="3250" source="tileset-lpc-accessories.tsx"/>
- <layer id="1" name="Grass" width="82" height="56">
+ <tileset firstgid="3270" source="tileset-kneippbyn.tsx"/>
+ <layer id="1" name="Ground" width="82" height="56">
   <data encoding="base64" compression="zlib">
    eJztWUluG0EQ0z05SHP3Jc7/n5S3ZEEGKFRIFtnTchLDgBuW1FstrLVfbrfbSxlf2vf/cbg8fH1jul6DO1MeXod7/0VZ7OD/PY2qAyWft9bVyjj152AvkcvKSGh43Xgvk8mzZf4exy7e3lJGq/hxfXlft8PWJvqTOFP3u3LfrefdMvmbI8HTTpyzs37Sc3z+GDvGt08fY8f48fdrPG5/fr7//lznznGA3/o5ah1aW9ffgzvu7X9dc4Bz7sN3dm9fp+hSfKdrEQ0Pg6/pni43pA9X70qnao6tZzp6DHMPcUb9LZG5wiXC+3HD9pRgaXWs6hDZ0CSvrosrPB3kTHb2QX6fbKCv7fSfGFK8KOxUfHQcIDqZL5t0jNYhmVS9Kr279sDoU7hTZx9kzf3GfVeX625bSmOW2rODNuVv2F3uvQiHk+9y6Ot4O9pQZ005RMe5Q6MaLMeZ9lQZM/940tl9TV9ztM8uHh35sfjDfKiDoUprt1Vkmy4PR9vb8xzHFhjdTr50ZRzgTCQX5NdWMYww2GXI9kzrFP7cPJ/l+EinyF7c+Djpst7Zcx0Hmz2uTzw5+lrNMZhsq09akZM7d4B7nBzXwbgT35AdqXxolaYVetV3J65Od6Kc1aFtyuNdTLo4ZzpAdevqmPII5x7ks11dT7EIxRukB1YnOL0Qprcktk35wbReYcuhI+1/PMyz3byu+rKT70f5f35mOVw/w5Fvyr+bi005XZchm2d+IunvoX1Tbd3x5PhDlxYWt/vcDh+V1lDpYPWyqpnVOUn97+xh/Dv5LvPJV3PlBIOOHal+5ko9qWTO1lc67+D+7pud2sjtczNfsBvvDMdJjENvA/08RHvy9pGOtP5cvff0o2nvLu11XeFtol3RhuLVyvvLKn4ZtiY5THnMM+JGv6/2b1Zrkqn3Wf2FWtt1Msmy+jaVx0+xz9FVKtd0j/JJ/WxWc1eZrb4D9Xmn9+OcVfcmvfsul8SuO65QTlLPvGJvjuxVPTXV9Clt1R7UvRPW0reQtJZz/HZqV0nNd9UHVBmqusrpW6P5jnlVgyayd+sTt1Zz+2/qXFcXtU6fdMJ4RvZW84BnxV5GzzPHlX6dS++UAzgYUnPVnyVyY/WCW0e4vVaFZzfGu3JP4ifbp3ohCS3TWuTfVQ/J7cdOfTiVG7l8O7Yw1dUuZnsMQbLrdUblaYrZO+ox1RdMa1O3r9f1NvX8++ekHrsqv6s9H6V7RMNKD5e9xyTxssbJCXeOn2V6SzF15Q2k8jK9obqYSTCAbH3qWe3qMTI/7e5XvDg1G7qbvZUpvFa5TT1DV3bT29uKf0lkyvQ06avn947upl7oyV+POYjn6Y2J3VPlPfkAdq86/6y1a7/czWsRvyt2z3x77cWheZaLTn0HhnnVt3T0ldi10+NgdCN/1/WyksMh/ln+iXxOp8uViyN3ZuuTjlXOmOQ+DIeIpm6vTg+S9b6rPbpxZDX2ovvd9zJHf86epC/k0MP6nUiGSQ8G1eEKpx0/Kh5MeWYiH2ck/bedunHXpj1x9Fnl2it9FESD6qEhvav6YFePypFfx7CSFfJTrp6d9yv3rN198aTGuYoT9x7X5+6iTem80u3UrWkccPHOcsEEZ+59Nf+8ire+dsqjES1O7pbWB98BqXJV+g==
   </data>
  </layer>
- <layer id="8" name="Roads, Terrain" width="82" height="56">
+ <layer id="8" name="Structures and Terrain" width="82" height="56">
   <data encoding="base64" compression="zlib">
-   eJztmlFuwjAQRP2T4jaBVD1F6UnaG3AFztMeuI5KmtUqQao9EXV4T1oRgmOHYeI1K4cAAAAAAABQJ8db38BG+Lj1DWwEdNSAjhrQUQM6akBHDeioAR01oKMGdNQw6Ng2IXTEb+ybPB0P6bo+ReMimvP2NV5ifN9fOY5X2th+oxsvumttX3Zs38aP46+z/S+N/Vyg49DPQ4qXO47dRYcSHXN/hy1xEOjYo2ORn9BxokQHOz+iI35UgB81KPxIvtb4kedas+7Bj+QZFQo/kmcmPz42f69t8FxPLNVrbE3E12DG+gY6Tow65tRrzgEdR0rzhJ0f37sQXlN8tpr4arXfdU1K88Sa+fpUkZ4KP6697jmJ/L1GHNPz99Zp/Mi6pw4/1sB/nh9rQuFH1j3lOqDjD/hRg8KPzI/kGRXK/4X3jMKPzI+sw1Uo8szg55w68JbiSZSvbZ13qSY8t+fO7n2LM+f6mc/n9uD5Pm07vyfP77vze/V6N5bfm+f7sW1ydBzrHLl14C3FrmH9qKBkfvwGWdxafw==
+   eJztmk1OwzAQhb1JE0hpWg4BlCOwYQm9Qa/ATdjDGXsOEjUmo1F+wPNMcPo+aQR0Etu8vNjuyM4RQgghhBBCSJrs5x7AQjjMPYCFQB0xUEcM1BEDdcRAHTFQRwzUEQN1xEAdMTQ6lplza8Z33GRhOm7q+6o6MhWF+Fz+LNrwf1cjvxcj18h2C9Vfoe6Vbcm+9TW6H32fbH+o761Bx6adVR23Fxx5q4NFx9DnsCQ2AB0r6mjyE3XssOgg50fqSD8ioB8xIPzI9RrjR77XmH0P/ch1BgXCj1xnOj9eZb+vbfC97hiq18iaiK7B+PoGdezwOobUa94cdfRY1wk5P76unXuo46PExGeJ/V9jYl0nYq7Xx4T0RPgx9r7nCPJ3jNjX79/jGuPHofvvds7dt6F5KqfzKRHTj6etcy+7c2gO5XQ+JWLOj1YdrX6OnZcg/Di077Hq+N/zEuv+jzqeienHVd3/+3Z4HFP5uXX6az+OPYfTiE5TeetziJ2XxN6HW3RMIe9Bfi/so3mmeRtyDH4cqed/qsMUIfNC3zhSz8/xvbAZw/PEOFPLI9aZxs8hdeAlxTVovZZ13qGacN+ZO3n2rej5rOrJ953B023K6/SZPH3uTp/Vq1Rf+myebkdeE6Kjr3OE1oGXFHkWd/94KVjmxy/M+LYL
   </data>
  </layer>
- <layer id="4" name="Buildings" width="82" height="56">
+ <layer id="4" name="Facades" width="82" height="56">
   <data encoding="base64" compression="zlib">
-   eJzt0r0KwjAUhuGzxMHekYuzl+fPJuIVKPi7iHgFuuki4hXopjh6xEAhFjukTVt9H/gI5CPkNFQEAAAAAAAAAAAAAAAAAAAAAAAAAPLTiPz6f7KoiyxtXK0ovcfbQ9/nYON6vVNa/43v/5x3nyXfd/T9n/PuQ9mnvFPV+1CK/s5ffMd2TaSj6Wp6tc85q9iHctP77zYTvXuqmWnmdo6q90UYGZGxiVd3jr7uDW0GCX3Zz4ey1bt3Jl7dOVa6t7FZJ/RlPx/KRe++mnhtOnMcde9sc0roy34eAJC9J28i48E=
+   eJztzrsNgDAUA8BswP4j8JmD/xzAGLyCMg0SihR0J7lyYacEAAAAAAAAAAAAAAAAAADAW22TUhfpI0Pzv76UJbbXyBbZMz9q70sZY3t6Mmd+1N6XcsT2+eTK/Ki9B+B7NzSIXmU=
   </data>
  </layer>
  <layer id="7" name="Objects" width="82" height="56">
   <data encoding="base64" compression="zlib">
-   eJztwTEBAAAAwqD1T20Gf6AAAAAAAAAAAAAAAAAAAAAAAIDXAEfAAAE=
+   eJzt0jsKwCAURcFXpzX7r5ON5LOVrCKCtQgRIcIMiMXpLi8CAAAAAAAAAAAAAAAAgD/YUvn39K1TXHmfJ7+7slOrUxx5n2WNOCs7tXrvPY/us+i959F9Fr33PLoDAADzegG2SSnl
   </data>
  </layer>
  <layer id="5" name="Roofs" width="82" height="56">
   <data encoding="base64" compression="zlib">
-   eJzt0scNAjEUhOF3c2FQCaEQYh/EPoh9EOtg9oDEwYIVlh+s9X/SnOZge2QzAAAAAAAAAAAAAAAAAAAAAAAAlKAVzNrh+x5mHe3TVXpKP7LVpx5mA+0yfNlpokxD/f4p9T/n7nObRXZah/p9JfU/5+49pO6Y+p9z915Sd/z33suv31najiNl/OaeTe29VPeYKwtlqawi92xy72WjM7fKTtkrB+UYyum9nHTmWbkoV+Wm3EM5PQAAKN8DJ/nbRQ==
+   eJzt0rkNwlAQBNCNyJANVXE0wtEIR2GUA3TASiQElhBYfB+8J000gb9XEwEAAAAAAAAAAAAAAMDQLaYRy8wqs55+3vO0ydtsM7vMvuFO7/p/NplHXGbPNN3pXf+q7Z5/3ZfSdo9970v55p1t9/zrvgtd7+Wf9zikvpSu/9Mdh9GXcshvHzOnzLnhHUPvS7pWEbfMvRpnX0pVR9SZWT3OHgD66AF6K5Mc
   </data>
  </layer>
  <objectgroup id="9" name="Sensors">
