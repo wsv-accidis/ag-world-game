@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.10" tiledversion="1.11.0" name="LPC Grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
- <image source="tileset-lpc-grass.png" width="96" height="192"/>
+<tileset version="1.10" tiledversion="1.11.0" name="LPC Grass" tilewidth="32" tileheight="32" tilecount="36" columns="3">
+ <image source="tileset-lpc-grass.png" width="96" height="384"/>
  <tile id="15" probability="0.1"/>
  <tile id="16" probability="0.1"/>
  <tile id="17" probability="0.1"/>
+ <tile id="33" probability="0.03"/>
+ <tile id="34" probability="0.03"/>
+ <tile id="35" probability="0.03"/>
  <wangsets>
   <wangset name="Grass" type="corner" tile="-1">
    <wangcolor name="Grass" color="#ff0000" tile="-1" probability="1"/>
