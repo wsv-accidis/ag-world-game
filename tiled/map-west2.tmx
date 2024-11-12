@@ -20,7 +20,7 @@
  </layer>
  <layer id="4" name="Bldg 1" width="82" height="82">
   <data encoding="base64" compression="zlib">
-   eJzt2FtKA0EQheHSt0lgduB1Jeou8hBdiC+abMO76zBuJRvJpaRbGKShZ+iaUC3/B+clBWFyXsIcEQAAAAAAAAAAAAAAAAAAgMPaTES2newmw+4ITqYip52cae7b/ncEPz399dT2vyOgRxueenxoRB41C82yqevuqcc3fbZ3zYfmM/E7PN/Xif/fbk+5u6VnfbaXmNfE7/B+F/3sKOa4SfSUuxv50u9exXwnntP7/Vw/u4i5TPSUuyO40m6uY24SPeXuCObazW3MnWbWDrsD8IWdwgY7hQ1P7zM1o0cbNfVYujOMqaYeS3eGMXnaKXKKd4SxOdkpckp3hLGxU9hgp7DBTgH8L+wUNtgpbNT0PuMZPdqgRxv0aKOmncK9SnYK79gpbLBT2GCnAAAAAAAAwK89qTW8Uw==
+   eJzt2EtOwzAQxnHDLqmUG5TXPUDALVgAB2HD4xoUCpyjcBUuwmOq2qISFk7lMRlH/580m06bOl8XVT7nAAAAAAAAAAAAAAAAAABATT5a5z7boU+RJ9xDmK92s72G6cS5nYn+df9TuIcwuzJXXf+95hlqNo2c/77rv881a39+o5oNneOCHFWs53jdOHcjcytz1/x+r+X90DmG71jmOJezPck8y7xE7sPy/j3y/7ueU2qvIeQ4k7M9+HmM3If1vZPXtvxsN5GcUvtMh5LhkcxCrv3q5y1yzrBfvv+vferzpfZ78tq+n4NITqk9Vo4lmxM/p5GcUnusnEs2F34uZc66zfYAbLHQU4yBhZ5iDCw8z4wBOeqoKcfcnqGkmnLM7RlKstBT9JXdI5Q2cE/RV26PUBo9hQ56Ch30FMC40FPooKfQUdPzjGXkqIMcdZCjjpp6CvMq6Smso6fQQU+hg54CAAAAAAAAwTdPwcLj
   </data>
  </layer>
  <layer id="7" name="Objects" width="82" height="82">
@@ -30,7 +30,7 @@
  </layer>
  <layer id="5" name="Bldg 2" width="82" height="82">
   <data encoding="base64" compression="zlib">
-   eJzt2MtRQkEUhOHjEyiC8JEIaCIKmWkoLtQwfFBoGDY7ykIGnLk1PZf/q+oNvRl6d08EAAAAAAAAAAAAAAAAAGBXF4OIS+VKuR6017uY6G1T5Ua53fBO995F7R1y+rdxxMNaHsf79SU577RLv+4psVOqz1F7h9z+Xb99KJ/K4h99KbV3yO2PhhHHyolyOty/L6X2Dn3Z8U5vu1dmynzDO917lx1XnkcRL8rrqL3eacel3velfP/xP9x7lHGmfc+3bJzqgUPTlztCbX25I9TmvKPTnSLFecffat4pUtx3dLlTpLjv6PQ9sw07lpF7R+haKzuu5N4ZutTSjtwRDgN3CgBAF1q6U7TE+U7hrpU7hbuWvmecsWMZ7FgGO8INdwoAAAAAAAAAbn4AuX2meQ==
+   eJzt2NlNw1AQheFhTSLTAmJphKURlj4oBvrICw+EJkBsAsrgWCiShQy2c280c8n/SaNIOXm4PnGkeMwAAAAAAAAAAAAAAAAAAH3tjcz2NQeaw1F5eRRHOtux5kRz2nLO6Lm3h8rssfLvISV/0vmvG3NTDctzmFbp1xEhb7rt6KkrX8Tuzverdw+p+bPee9G8at4WyFNcNb4X7x5S87Wx2bpmQ7M5Hp6nmNJjFvVven5Pnuls55oLzWXLOaPnnj3Wmvfk3cRsprmftH82cu7d4/x/T+1d5/vQfP5yHdFz5LGlfrf/6LgrB1bNf9kjeCt9jxBF5B4j7Cn6itzjTx57ir6i9+i5pxgieo/ezzN90WMeqXuEZSulx1rqnmGZSuqRPcJqYE8BAFiGkvYUJYm8p4iulD1FdCU9z0RGj3nQYx70iGjYUwAAAAAAAACI5guR8a3V
   </data>
  </layer>
  <objectgroup id="9" name="Sensors" visible="0">
