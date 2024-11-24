@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="82" height="56" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <editorsettings>
-  <export target="../assets/assets/images/tiled/map-main.json" format="json"/>
+  <export target="../assets/assets/images/tiled/map-west1.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" source="tileset-lpc-grass.tsx"/>
  <tileset firstgid="37" source="tileset-lpc-trees.tsx"/>
@@ -34,12 +34,12 @@
   </data>
  </layer>
  <objectgroup id="9" name="Sensors">
-  <object id="1" name="exitMap" x="5" y="1217" width="57" height="571">
+  <object id="1" name="exitMap" x="5" y="1217" width="40" height="571">
    <properties>
     <property name="dest" value="west0"/>
    </properties>
   </object>
-  <object id="2" name="exitMap" x="68" y="1727" width="2486.5" height="61">
+  <object id="2" name="exitMap" x="50" y="1748" width="2504.5" height="40">
    <properties>
     <property name="dest" value="west2"/>
    </properties>

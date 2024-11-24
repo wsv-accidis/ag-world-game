@@ -16,8 +16,6 @@ class WorldGame extends StatefulWidget {
 }
 
 class _WorldGameState extends State<WorldGame> {
-  static final _playerSpawnPoint = Vector2(800, 1000);
-
   @override
   Widget build(BuildContext context) {
     final menuKey = GlobalKey<MenuOverlayState>();
@@ -26,7 +24,8 @@ class _WorldGameState extends State<WorldGame> {
     return MapNavigator(
         maps: mapConfig.maps,
         builder: (context, arguments, map) {
-          final args = arguments as MapArguments?;
+          final args = arguments as MapArguments? ?? MapArguments.defaultArgs();
+          print("Entering [${args.destMap.name}] facing [${args.direction.name}] at position ${args.destPos}.");
 
           return BonfireWidget(
               backgroundColor: const Color.fromRGBO(7, 67, 55, 1.0),
@@ -37,8 +36,7 @@ class _WorldGameState extends State<WorldGame> {
               overlayBuilderMap: {
                 MenuOverlay.overlayKey: (buildContext, game) => MenuOverlay(key: menuKey, game: game),
               },
-              player: ThePlayer(
-                  args?.playerPosition ?? _playerSpawnPoint, args?.playerDirection ?? Direction.down, menuKey),
+              player: ThePlayer(args.destPos, args.direction, menuKey),
               playerControllers: [
                 Keyboard(
                     config: KeyboardConfig(

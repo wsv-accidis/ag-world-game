@@ -42,16 +42,25 @@
   <object id="13" name="exitMap" x="2314" y="4" width="176" height="55">
    <properties>
     <property name="dest" value="west1"/>
+    <property name="direction" value="up"/>
+    <property name="x" type="int" value="-2300"/>
+    <property name="y" type="int" value="1140"/>
    </properties>
   </object>
-  <object id="14" name="exitMap" x="2432" y="67" width="54" height="603">
+  <object id="14" name="exitMap" x="2432" y="67" width="54" height="534">
    <properties>
     <property name="dest" value="west1"/>
+    <property name="direction" value="right"/>
+    <property name="x" type="int" value="100"/>
+    <property name="y" type="int" value="1150"/>
    </properties>
   </object>
-  <object id="16" name="exitMap" x="2434" y="683" width="54" height="1419">
+  <object id="16" name="exitMap" x="2434" y="615" width="54" height="1487">
    <properties>
     <property name="dest" value="west2"/>
+    <property name="direction" value="right"/>
+    <property name="x" type="int" value="100"/>
+    <property name="y" type="int" value="-510"/>
    </properties>
   </object>
   <object id="17" name="showMenu" x="461" y="967" width="755" height="386"/>
