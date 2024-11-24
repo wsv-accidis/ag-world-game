@@ -37,11 +37,17 @@
   <object id="1" name="exitMap" x="5" y="1217" width="40" height="571">
    <properties>
     <property name="dest" value="west0"/>
+    <property name="direction" value="left"/>
+    <property name="x" type="int" value="2380"/>
+    <property name="y" type="int" value="-1150"/>
    </properties>
   </object>
   <object id="2" name="exitMap" x="50" y="1748" width="2504.5" height="40">
    <properties>
     <property name="dest" value="west2"/>
+    <property name="direction" value="down"/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="70"/>
    </properties>
   </object>
  </objectgroup>

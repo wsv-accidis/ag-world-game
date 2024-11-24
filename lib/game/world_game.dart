@@ -23,6 +23,7 @@ class _WorldGameState extends State<WorldGame> {
 
     return MapNavigator(
         maps: mapConfig.maps,
+        initialMap: MapArguments.initialMap.name,
         builder: (context, arguments, map) {
           final args = arguments as MapArguments? ?? MapArguments.defaultArgs();
           print("Entering [${args.destMap.name}] facing [${args.direction.name}] at position ${args.destPos}.");

@@ -93,7 +93,7 @@
          "name":"Sensors",
          "objects":[
                 {
-                 "height":55,
+                 "height":79,
                  "id":13,
                  "name":"exitMap",
                  "properties":[
@@ -120,12 +120,12 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":176,
-                 "x":2314,
+                 "width":152,
+                 "x":2341,
                  "y":4
                 }, 
                 {
-                 "height":534,
+                 "height":506,
                  "id":14,
                  "name":"exitMap",
                  "properties":[
@@ -153,11 +153,11 @@
                  "type":"",
                  "visible":true,
                  "width":54,
-                 "x":2432,
-                 "y":67
+                 "x":2439,
+                 "y":87
                 }, 
                 {
-                 "height":1487,
+                 "height":1465,
                  "id":16,
                  "name":"exitMap",
                  "properties":[
@@ -185,8 +185,8 @@
                  "type":"",
                  "visible":true,
                  "width":54,
-                 "x":2434,
-                 "y":615
+                 "x":2440,
+                 "y":597
                 }, 
                 {
                  "height":386,
@@ -196,8 +196,8 @@
                  "type":"",
                  "visible":true,
                  "width":755,
-                 "x":461,
-                 "y":967
+                 "x":720,
+                 "y":999
                 }],
          "opacity":1,
          "type":"objectgroup",

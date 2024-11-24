@@ -86,16 +86,31 @@
                          "name":"dest",
                          "type":"string",
                          "value":"west0"
+                        }, 
+                        {
+                         "name":"direction",
+                         "type":"string",
+                         "value":"left"
+                        }, 
+                        {
+                         "name":"x",
+                         "type":"int",
+                         "value":2380
+                        }, 
+                        {
+                         "name":"y",
+                         "type":"int",
+                         "value":-1150
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":57,
+                 "width":40,
                  "x":5,
                  "y":1217
                 }, 
                 {
-                 "height":61,
+                 "height":40,
                  "id":2,
                  "name":"exitMap",
                  "properties":[
@@ -103,13 +118,28 @@
                          "name":"dest",
                          "type":"string",
                          "value":"west2"
+                        }, 
+                        {
+                         "name":"direction",
+                         "type":"string",
+                         "value":"down"
+                        }, 
+                        {
+                         "name":"x",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"y",
+                         "type":"int",
+                         "value":70
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2486.5,
-                 "x":68,
-                 "y":1727
+                 "width":2504.5,
+                 "x":50,
+                 "y":1748
                 }],
          "opacity":1,
          "type":"objectgroup",
