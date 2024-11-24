@@ -1,5 +1,4 @@
-{ "backgroundcolor":"#074337",
- "compressionlevel":-1,
+{ "compressionlevel":-1,
  "height":66,
  "infinite":false,
  "layers":[
@@ -214,23 +213,23 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"tileset-lpc-grass.json"
+         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-grass.tsx"
         }, 
         {
          "firstgid":37,
-         "source":"tileset-lpc-trees.json"
+         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-trees.tsx"
         }, 
         {
          "firstgid":1285,
-         "source":"tileset-lpc-streets.json"
+         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-streets.tsx"
         }, 
         {
          "firstgid":1333,
-         "source":"tileset-lpc-mountains.json"
+         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-mountains.tsx"
         }, 
         {
          "firstgid":1693,
-         "source":"tileset-kneippbyn.json"
+         "source":"..\/..\/..\/..\/tiled\/tileset-kneippbyn.tsx"
         }],
  "tilewidth":32,
  "type":"map",

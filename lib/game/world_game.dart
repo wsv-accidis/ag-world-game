@@ -24,6 +24,7 @@ class _WorldGameState extends State<WorldGame> {
     return MapNavigator(
         maps: mapConfig.maps,
         initialMap: MapArguments.initialMap.name,
+        transitionDuration: Durations.extralong4,
         builder: (context, arguments, map) {
           final args = arguments as MapArguments? ?? MapArguments.defaultArgs();
           print("Entering [${args.destMap.name}] facing [${args.direction.name}] at position ${args.destPos}.");
@@ -44,7 +45,7 @@ class _WorldGameState extends State<WorldGame> {
                   acceptedKeys: [],
                   directionalKeys: [KeyboardDirectionalKeys.arrows()],
                 )),
-              ],
+              ],                            
               showCollisionArea: false);
         });
   }
