@@ -78,7 +78,7 @@
          "name":"Sensors",
          "objects":[
                 {
-                 "height":571,
+                 "height":574,
                  "id":1,
                  "name":"exitMap",
                  "properties":[
@@ -105,12 +105,12 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":40,
-                 "x":5,
+                 "width":47,
+                 "x":1,
                  "y":1217
                 }, 
                 {
-                 "height":40,
+                 "height":43,
                  "id":2,
                  "name":"exitMap",
                  "properties":[
@@ -137,9 +137,41 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2025,
+                 "width":1983,
                  "x":50,
                  "y":1748
+                }, 
+                {
+                 "height":660,
+                 "id":3,
+                 "name":"exitMap",
+                 "properties":[
+                        {
+                         "name":"dest",
+                         "type":"string",
+                         "value":"center2"
+                        }, 
+                        {
+                         "name":"direction",
+                         "type":"string",
+                         "value":"right"
+                        }, 
+                        {
+                         "name":"x",
+                         "type":"int",
+                         "value":0
+                        }, 
+                        {
+                         "name":"y",
+                         "type":"int",
+                         "value":0
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":44,
+                 "x":2034,
+                 "y":1131
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -148,7 +180,7 @@
          "y":0
         }],
  "nextlayerid":10,
- "nextobjectid":3,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
@@ -156,23 +188,23 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-grass.tsx"
+         "source":"tileset-lpc-grass.json"
         }, 
         {
          "firstgid":37,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-trees.tsx"
+         "source":"tileset-lpc-trees.json"
         }, 
         {
          "firstgid":1285,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-streets.tsx"
+         "source":"tileset-lpc-streets.json"
         }, 
         {
          "firstgid":1333,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-mountains.tsx"
+         "source":"tileset-lpc-mountains.json"
         }, 
         {
          "firstgid":1693,
-         "source":"..\/..\/..\/..\/tiled\/tileset-kneippbyn.tsx"
+         "source":"tileset-kneippbyn.json"
         }],
  "tilewidth":32,
  "type":"map",

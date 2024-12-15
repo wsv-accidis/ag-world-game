@@ -42,7 +42,7 @@
     <property name="y" type="int" value="510"/>
    </properties>
   </object>
-  <object id="2" name="exitMap" x="48" y="3" width="2025" height="47">
+  <object id="2" name="exitMap" x="48" y="3" width="2043" height="47">
    <properties>
     <property name="dest" value="west1"/>
     <property name="direction" value="up"/>
@@ -58,12 +58,12 @@
     <property name="y" type="int" value="510"/>
    </properties>
   </object>
-  <object id="4" name="exitMap" x="2082" y="3" width="58" height="2473">
+  <object id="4" name="exitMap" x="2090" y="3" width="50" height="2473">
    <properties>
     <property name="dest" value="west3"/>
     <property name="direction" value="right"/>
-    <property name="x" type="int" value="0"/>
-    <property name="y" type="int" value="0"/>
+    <property name="x" type="int" value="50"/>
+    <property name="y" type="int" value="-700"/>
    </properties>
   </object>
   <object id="5" x="2884" y="760" height="2"/>

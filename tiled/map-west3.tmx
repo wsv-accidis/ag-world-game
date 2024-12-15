@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="54" height="60" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="4">
+ <editorsettings>
+  <export target="../assets/assets/images/tiled/map-west3.json" format="json"/>
+ </editorsettings>
  <tileset firstgid="1" source="tileset-lpc-mountains.tsx"/>
  <tileset firstgid="361" source="tileset-lpc-grass.tsx"/>
  <tileset firstgid="397" source="tileset-lpc-streets.tsx"/>
@@ -31,15 +34,15 @@
   </data>
  </layer>
  <objectgroup id="6" name="Sensors">
-  <object id="1" name="exitMap" x="2" y="4" width="59" height="1767">
+  <object id="1" name="exitMap" x="2" y="4" width="49" height="1767">
    <properties>
     <property name="dest" value="west2"/>
     <property name="direction" value="left"/>
-    <property name="x" type="int" value="0"/>
-    <property name="y" type="int" value="0"/>
+    <property name="x" type="int" value="2020"/>
+    <property name="y" type="int" value="700"/>
    </properties>
   </object>
-  <object id="2" name="exitMap" x="71" y="6" width="1599" height="57">
+  <object id="2" name="exitMap" x="59" y="6" width="1611" height="37">
    <properties>
     <property name="dest" value="center2"/>
     <property name="direction" value="up"/>

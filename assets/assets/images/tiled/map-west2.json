@@ -137,7 +137,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":2025,
+                 "width":2043,
                  "x":48,
                  "y":3
                 }, 
@@ -191,18 +191,18 @@
                         {
                          "name":"x",
                          "type":"int",
-                         "value":0
+                         "value":50
                         }, 
                         {
                          "name":"y",
                          "type":"int",
-                         "value":0
+                         "value":-700
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":58,
-                 "x":2082,
+                 "width":50,
+                 "x":2090,
                  "y":3
                 }, 
                 {
@@ -231,23 +231,23 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-grass.tsx"
+         "source":"tileset-lpc-grass.json"
         }, 
         {
          "firstgid":37,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-trees.tsx"
+         "source":"tileset-lpc-trees.json"
         }, 
         {
          "firstgid":1285,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-streets.tsx"
+         "source":"tileset-lpc-streets.json"
         }, 
         {
          "firstgid":1333,
-         "source":"..\/..\/..\/..\/tiled\/tileset-lpc-mountains.tsx"
+         "source":"tileset-lpc-mountains.json"
         }, 
         {
          "firstgid":1693,
-         "source":"..\/..\/..\/..\/tiled\/tileset-kneippbyn.tsx"
+         "source":"tileset-kneippbyn.json"
         }],
  "tilewidth":32,
  "type":"map",

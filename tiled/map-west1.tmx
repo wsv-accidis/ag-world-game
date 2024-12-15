@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="65" height="56" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="65" height="56" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <editorsettings>
   <export target="../assets/assets/images/tiled/map-west1.json" format="json"/>
  </editorsettings>
@@ -34,7 +34,7 @@
   </data>
  </layer>
  <objectgroup id="9" name="Sensors">
-  <object id="1" name="exitMap" x="5" y="1217" width="40" height="571">
+  <object id="1" name="exitMap" x="1" y="1217" width="47" height="574">
    <properties>
     <property name="dest" value="west0"/>
     <property name="direction" value="left"/>
@@ -42,12 +42,20 @@
     <property name="y" type="int" value="-1150"/>
    </properties>
   </object>
-  <object id="2" name="exitMap" x="50" y="1748" width="2025" height="40">
+  <object id="2" name="exitMap" x="50" y="1748" width="1983" height="43">
    <properties>
     <property name="dest" value="west2"/>
     <property name="direction" value="down"/>
     <property name="x" type="int" value="0"/>
     <property name="y" type="int" value="70"/>
+   </properties>
+  </object>
+  <object id="3" name="exitMap" x="2034" y="1131" width="44" height="660">
+   <properties>
+    <property name="dest" value="center2"/>
+    <property name="direction" value="right"/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="0"/>
    </properties>
   </object>
  </objectgroup>

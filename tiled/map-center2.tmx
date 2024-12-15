@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="85" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="85" height="64" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="7">
  <tileset firstgid="1" source="tileset-lpc-mountains.tsx"/>
  <tileset firstgid="361" source="tileset-lpc-grass.tsx"/>
  <tileset firstgid="397" source="tileset-lpc-streets.tsx"/>
@@ -12,7 +12,7 @@
  </layer>
  <layer id="13" name="Base 2" width="85" height="64">
   <data encoding="base64" compression="zlib">
-   eJztmltOwzAQReNPNsFS2GFoeSXA6mAnRGos3GHS2OQSgzlHGrVNLTu9un5kpl0HAAAAAN/lMZzHU6h9R3+fYzjFOEU/xTOabuY1nOIwa4umOgY0lTMw9+UM85qKpjrwqR58qgef6sGnejhL6WHu68GneqJP78LXvApRFqmmMY9iY5w9HN/Hz2mkbXrTtg/neZr0Wu/0Y7+zfaSvx2Sc0Rnz6PRl+xidfrx76U1/o7keX62mt+Ezr+JFzLWstfvPYTVdW0/Zy/LJ3aM4x+ZT4lPOB5d5m+K9K/MpmubBeqoHn+op8Sl7VB52Tl9fLbfDp3lY/13SlPU0D6vVDZpuhjO/Hs78ekp8ytzPg7OUnlz/4dN1Ym76vkBTfHoZm7NH0+2k+fuSua+uW9n/Ej+I+69Vj8rV1NailupDS7Ugr2Zlxx2CX7Py6k5eHcoby6uveb/F1tLse1uXs21KNX0J2trNYUFT9Ti/uR6lpuX1udYZqeWzWa1nTnzazrh7UHM9RdM2xt2DmnO/ZU3xqZaaPm0tx53mpfCpBvsfTPb97aw9d/80Lc79CPu+npr7Pj5tY9w9IIeip6amLc99zlJaeI7Swx6lh7mv4wOiobuw
+   eJztmltOwzAQRetPNsFS2GFoeCXAZmApsBMiNRbuMGlscqnBnCON2qaWnV5dPzLT3Q4AAAAAvst9OI6HUPuO/j59OMQ4RTfFI5pu5jkcYj9ri6Y6BjSVMzD35QzzmoqmOvCpHnyqB5/qwad6OEvpYe7rwad6ok9vwte8ClEWqaYxj2JjnD0c38fPaaRtOtO2C8d5mvRa5/Rjv7N9pK99Ms7ojNk7fdk+Rqcf7146099orsdXq+l1+MyreBFzLWvt/nNYTdfWU/ayfHL3KM6x+ZT4lPPBad6meN+V+RRN82A91YNP9ZT4lD0qDzunLy+W2+HTPKz/TmnKepqH1eoKTTfDmV8PZ349JT5l7ufBWUpPrv/w6ToxN31boCk+PY3N2aPpdtL8fcncV9et7H+J78T916pH5Wpqa1FL9aGlWpBXs7LjDsGvWXl1J68O5Y3l1de832Jrafa9rcvZNqWaPgVt7Wa/oKl6nN9cj1LT8vpc64zU8tms1jMnPm1n3HNQcz1F0zbGPQc1537LmuJTLTV92lqOO81L4VMN9j+Y7PvbWXvu/mlanPsR9n09Nfd9fNrGuOeAHIqempq2PPc5S2nhOUoPe5Se1ub+y9Tfa6X4AHog0w4=
   </data>
  </layer>
  <layer id="14" name="Bldg 1" width="85" height="64" locked="1">
@@ -30,4 +30,31 @@
    eJzt0stpAlEAheHB1YxjtAILyMs+YtQ+8tAOUkAeppJYgq3YScCzUxcuxAkq+T744Q7M4nK4RQEAAAAAAABcurIsiiq1U5066Sp1U6889e0u13W2u0m36S7dp4E9D/JW734/ZL9hekyjNE4Tmx5kubXpqmXTJiy908b1O5vzb23Tv2DT5tm0eU/Z7zm9pNc0TTObHuU9+32kz/SV5unbppyhRbU5/1T7/wMAAAAAAAAAAADg/1gD1KEZTg==
   </data>
  </layer>
+ <objectgroup id="17" name="Sensors">
+  <object id="1" name="exitMap" x="2" y="1236" width="47" height="810">
+   <properties>
+    <property name="dest" value=""/>
+    <property name="direction" value=""/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="3" name="exitMap" x="53" y="2000" width="1556" height="47">
+   <properties>
+    <property name="dest" value="west3"/>
+    <property name="direction" value="down"/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="4" name="exitMap" x="4" y="2" width="44" height="1228">
+   <properties>
+    <property name="dest" value="west1"/>
+    <property name="direction" value="left"/>
+    <property name="x" type="int" value="0"/>
+    <property name="y" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="5" x="-292" y="1046"/>
+ </objectgroup>
 </map>
