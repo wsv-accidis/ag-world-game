@@ -39,7 +39,7 @@
   </data>
  </layer>
  <objectgroup id="9" name="Sensors">
-  <object id="13" name="exitMap" x="2341" y="4" width="152" height="79">
+  <object id="13" name="exitMap" x="2336" y="0" width="160" height="80">
    <properties>
     <property name="dest" value="west1"/>
     <property name="direction" value="up"/>
@@ -47,7 +47,7 @@
     <property name="y" type="int" value="1140"/>
    </properties>
   </object>
-  <object id="14" name="exitMap" x="2439" y="87" width="54" height="506">
+  <object id="14" name="exitMap" x="2448" y="80" width="48" height="504">
    <properties>
     <property name="dest" value="west1"/>
     <property name="direction" value="right"/>
@@ -55,7 +55,7 @@
     <property name="y" type="int" value="1150"/>
    </properties>
   </object>
-  <object id="16" name="exitMap" x="2440" y="597" width="54" height="1465">
+  <object id="16" name="exitMap" x="2448" y="584" width="48" height="1472">
    <properties>
     <property name="dest" value="west2"/>
     <property name="direction" value="right"/>

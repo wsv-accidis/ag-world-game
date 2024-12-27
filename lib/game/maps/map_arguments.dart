@@ -9,14 +9,23 @@ class MapArguments {
   MapArguments(this.destMap, this.direction, this.destPos);
 
   // This sets the default player spawn map and position
-  static Maps initialMap = Maps.west2;
-  static MapArguments defaultArgs() => MapArguments(initialMap, Direction.down, Vector2(1800, 700));
+  static Maps initialMap = Maps.center2;
+  static MapArguments defaultArgs() => MapArguments(initialMap, Direction.down, Vector2(240, 1320));
 
   static MapArguments fromMapSensorParams(Map<String, dynamic> params) {
-    final dest = Maps.fromName(params['dest'] ?? '');
-    final direction = Direction.fromName(params['direction'] ?? '');
-    final positionX = params['x'] as int? ?? 0;
-    final positionY = params['y'] as int? ?? 0;
+    // These are custom properties on the 'exitMap' sensors in the map
+    // All four must be present, otherwise the transition is broken and there is a bug in the map
+    if (!params.containsKey('dest') ||
+        !params.containsKey('direction') ||
+        !params.containsKey('x') ||
+        !params.containsKey('y')) {
+      throw ArgumentError("Map sensor is missing required properties.");
+    }
+
+    final dest = Maps.fromName(params['dest']);
+    final direction = Direction.fromName(params['direction']);
+    final positionX = params['x'] as int;
+    final positionY = params['y'] as int;
     return MapArguments(dest, direction, Vector2(positionX.toDouble(), positionY.toDouble()));
   }
 

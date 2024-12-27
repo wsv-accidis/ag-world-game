@@ -25,29 +25,29 @@
  </layer>
  <layer id="4" name="Bldg 2" width="54" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2rEJwkAYhuEvh5bZQSHuoaB76GAKKXQPxQg6hxZa6gJ+hSMkHvz3PvCT4uCSl2uuiDSsd5I+qf99j97z9Nv36udtgHfk9nTTK2BXRHuf0yHgWXVuugTsApDftpZaz67Osw4AAAD8A/deAAAAlIB7LQAAAACgJJMkTT3nSuqq3F/Tn7mbFp67mx6ButZu2nhGnnHA/2EbN80Cdi3dtArYVYovorwlqg==
+   eJzt2jEKwkAQRuFJ0DK5ghH0HEbQe+jBFCz0HooR9BxaaKkX8C8sU26yOPs+GFIEdvNIii1i1q13bvbJw6971Jqn37pXXW8te4xKs6oMv3dfnmp6tXTN1FT/cZdHe72nQwffeWyNmi4OuwDEtynMdpptEec+AAAA0AfOvQAAAEgB51oAAAAAQEqq3GysOWdmTRb7acKp1TTX3NX0cNS1UtNaM9AMHf4PO1HT1GHXQk1Lh12p+ALy5Sag
   </data>
  </layer>
  <layer id="5" name="Bldg 3" width="54" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt1rkNwzAQBMDzKwnqvwC7FFfirxAzdEYREGlTmAEu2uCw2UYAAP/oPkdcvu46t81buWX+1s7X9Bginule6d5D+7yW3RixT3dIdxzb57XopVdJTrnTFHGefpcD/bB72+Rrsnv72ht66VWSU87uBZbayq7N6WnX5vS6a3O2uif00ou67FoAAACW+gCPSWEd
+   eJzt1ssNwjAQhOHhmUQR6QE6CZ2SUqiEVyHskZtjZK9l6/+kPc3BnttIbVtOpX+Qx3mSLlPpX6Q3W6drg70A4B+PUbr93DL65l7ugXdz5yk9O+ll97b7dP55Lpte2trt7Pa9f54LvegVkyPeYZCOQ7kcQD3YvT55SuzeuvYGvegVkyMeuxfAWq3s2pCadm1Irbs2pNU9QS96IS92LQAAAABgrS+UGmLK
   </data>
  </layer>
  <objectgroup id="6" name="Sensors">
-  <object id="1" name="exitMap" x="2" y="4" width="49" height="1767">
+  <object id="1" name="exitMap" x="0" y="0" width="48" height="1768">
    <properties>
     <property name="dest" value="west2"/>
     <property name="direction" value="left"/>
     <property name="x" type="int" value="2020"/>
-    <property name="y" type="int" value="700"/>
+    <property name="y" type="int" value="710"/>
    </properties>
   </object>
-  <object id="2" name="exitMap" x="59" y="6" width="1611" height="37">
+  <object id="2" name="exitMap" x="48" y="0" width="1624" height="37">
    <properties>
     <property name="dest" value="center2"/>
     <property name="direction" value="up"/>
-    <property name="x" type="int" value="0"/>
-    <property name="y" type="int" value="0"/>
+    <property name="x" type="int" value="65"/>
+    <property name="y" type="int" value="1360"/>
    </properties>
   </object>
  </objectgroup>

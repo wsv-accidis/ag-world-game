@@ -78,7 +78,7 @@
          "name":"Sensors",
          "objects":[
                 {
-                 "height":574,
+                 "height":576,
                  "id":1,
                  "name":"exitMap",
                  "properties":[
@@ -105,12 +105,12 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":47,
-                 "x":1,
-                 "y":1217
+                 "width":48,
+                 "x":0,
+                 "y":1216
                 }, 
                 {
-                 "height":43,
+                 "height":48,
                  "id":2,
                  "name":"exitMap",
                  "properties":[
@@ -137,12 +137,12 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":1983,
-                 "x":50,
-                 "y":1748
+                 "width":1984,
+                 "x":48,
+                 "y":1744
                 }, 
                 {
-                 "height":660,
+                 "height":664,
                  "id":3,
                  "name":"exitMap",
                  "properties":[
@@ -159,19 +159,19 @@
                         {
                          "name":"x",
                          "type":"int",
-                         "value":0
+                         "value":60
                         }, 
                         {
                          "name":"y",
                          "type":"int",
-                         "value":0
+                         "value":-1025
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":44,
-                 "x":2034,
-                 "y":1131
+                 "width":48,
+                 "x":2032,
+                 "y":1128
                 }],
          "opacity":1,
          "type":"objectgroup",
