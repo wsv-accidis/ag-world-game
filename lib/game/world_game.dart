@@ -46,7 +46,7 @@ class _WorldGameState extends State<WorldGame> {
                   directionalKeys: [KeyboardDirectionalKeys.arrows()],
                 )),
               ],                            
-              showCollisionArea: false);
+              showCollisionArea: true);
         });
   }
 }

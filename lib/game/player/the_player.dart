@@ -16,7 +16,7 @@ class ThePlayer extends SimplePlayer with BlockMovementCollision, PathFinding, T
   final GlobalKey<MenuOverlayState> menuKey;
 
   // Player sprite hitbox
-  static final _playerHitbox = RectangleHitbox(size: Vector2(32, 50), position: Vector2(16, 13));
+  static final _playerHitbox = RectangleHitbox(size: Vector2(28, 48), position: Vector2(18, 14));
 
   // State for pathfinding
   var _pathFindingLastPos = Vector2.zero();
