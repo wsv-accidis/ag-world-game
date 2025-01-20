@@ -10,7 +10,7 @@ class MapArguments {
 
   // This sets the default player spawn map and position
   static Maps initialMap = Maps.west1;
-  static MapArguments defaultArgs() => MapArguments(initialMap, Direction.down, Vector2(1900, 900));
+  static MapArguments defaultArgs() => MapArguments(initialMap, Direction.down, Vector2(175, 1440));
 
   static MapArguments fromMapSensorParams(Map<String, dynamic> params) {
     // These are custom properties on the 'exitMap' sensors in the map
